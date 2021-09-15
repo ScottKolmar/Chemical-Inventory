@@ -9,12 +9,8 @@ from sqlalchemy.sql.expression import update
 from sqlalchemy.sql.sqltypes import DateTime
 from sqlalchemy.sql import func
 from sqlalchemy_utils import aggregated
-from dotenv import load_dotenv
 
-load_dotenv(
-    dotenv_path=r'C:\Users\skolmar\Udacity\FNSD\FSND\projects\capstone\starter\credentials.env')
-
-database_path = os.environ['DATABASE_URL']
+database_path = os.getenv('DATABASE_URL')
 
 db = SQLAlchemy()
 
