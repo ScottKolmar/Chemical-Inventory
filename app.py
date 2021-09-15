@@ -19,7 +19,7 @@ def create_app(test_config=None):
     setup_db(app)
 
     # Create clean database
-    db_drop_and_create_all()
+    # db_drop_and_create_all()
 
     # Set up CORS
     cors = CORS(app, resources={
