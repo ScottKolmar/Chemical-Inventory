@@ -1,5 +1,7 @@
 # Chemical Inventory API
 
+This project is a functional chemical inventory API which allows a user to store individual chemical entries and inventory entries in a database. The chemical entries contain experimental and physical properties, and the inventory entries contain lists of chemicals. This API allows a user to keep track of chemicals and how they are distributed amongst different inventories.
+
 ## Capstone Project for Udacity's Full Stack Developer Nanodegree
 Heroku Link: http://https://chem-inventory.herokuapp.com/
 
