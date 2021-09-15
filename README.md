@@ -1,7 +1,7 @@
 # Chemical Inventory API
 
 ## Capstone Project for Udacity's Full Stack Developer Nanodegree
-Heroku Link: 
+Heroku Link: http://https://chem-inventory.herokuapp.com/
 
 While running locally: http://localhost:5000
 
